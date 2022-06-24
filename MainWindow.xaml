@@ -22,11 +22,11 @@
                 </DataTemplate>
             </ListBox.ItemTemplate> />
         </ListBox>
-        <Label Content="Choose the article you read" HorizontalAlignment="Left" Margin="139,16,0,0" VerticalAlignment="Top" Width="239" Background="#FF007AFF"/>
-        <Label Content="Input Minute and Second" HorizontalAlignment="Left" Height="26" Margin="582,16,0,0" VerticalAlignment="Top" Width="154" Background="#FF007AFF"/>
+        <Label Content="Choose the article you read" HorizontalAlignment="Left" Margin="139,16,0,0" VerticalAlignment="Top" Width="239" Background="#FF007AFF" FontSize="14" FontWeight="Bold"/>
+        <Label Content="Input Minute and Second" HorizontalAlignment="Left" Height="26" Margin="574,17,0,0" VerticalAlignment="Top" Width="182" Background="#FF007AFF" FontSize="14" FontWeight="Bold"/>
         <TextBox x:Name="InputMinute" HorizontalAlignment="Left" Margin="584,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64" Text="Min" />
         <TextBox x:Name="WpmTB" HorizontalAlignment="Left" Margin="584,163,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="145"/>
-        <Label Content="Word Per Minute" HorizontalAlignment="Left" Margin="584,132,0,0" VerticalAlignment="Top" Width="145" Background="#FF007AFF"/>
+        <Label Content="Word Per Minute" HorizontalAlignment="Left" Margin="584,132,0,0" VerticalAlignment="Top" Width="145" Background="#FF007AFF" FontSize="14" FontWeight="Bold"/>
         <Button x:Name="CalculateButton" Content="Calculate" HorizontalAlignment="Left" Height="21" Margin="582,94,0,0" VerticalAlignment="Top" Width="145" Click="CalculateButton_Click" Background="#FFF7BA5F"/>
         <TextBox x:Name="InputSecond" HorizontalAlignment="Left" Margin="664,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64" Text="Second" />
         <Label Content=":" HorizontalAlignment="Left" Margin="650,45,0,0" VerticalAlignment="Top"/>
