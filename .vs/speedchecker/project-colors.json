@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "06a6e9a6-73a3-4a94-aeed-4fb298f5c7fe": {
+      "ProjectGuid": "06a6e9a6-73a3-4a94-aeed-4fb298f5c7fe",
+      "DisplayName": "WPMCalculator",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "기타 파일",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

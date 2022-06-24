@@ -1,0 +1,36 @@
+﻿<Window x:Name="readtime" x:Class="speedchecker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:speedchecker"
+        mc:Ignorable="d"
+        Title="WPM_Calculator" Height="441" Width="804">
+    <Grid>
+        <ListBox x:Name="ArticleList" HorizontalAlignment="Left" Height="331" Margin="41,53,0,0" VerticalAlignment="Top" Width="474">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="370"/>
+                            <ColumnDefinition Width="80"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="{Binding title}" />
+                        <TextBlock Grid.Column="1" Text="{Binding words}" />
+
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate> />
+        </ListBox>
+        <Label Content="Choose the article you read" HorizontalAlignment="Left" Margin="49,10,0,0" VerticalAlignment="Top" Width="239"/>
+        <Label Content="Input Minute and Second" HorizontalAlignment="Left" Height="26" Margin="546,21,0,0" VerticalAlignment="Top" Width="154"/>
+        <TextBox x:Name="InputMinute" HorizontalAlignment="Left" Margin="546,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="65" Text="Min" />
+        <TextBox x:Name="WpmTB" HorizontalAlignment="Left" Margin="546,158,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="145"/>
+        <Label Content="Word Per Minute" HorizontalAlignment="Left" Margin="546,132,0,0" VerticalAlignment="Top" Width="145"/>
+        <Button x:Name="CalculateButton" Content="Calculate" HorizontalAlignment="Left" Height="21" Margin="546,95,0,0" VerticalAlignment="Top" Width="145" Click="CalculateButton_Click"/>
+        <TextBox x:Name="InputSecond" HorizontalAlignment="Left" Margin="626,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="65" Text="Second" />
+        <Label Content=":" HorizontalAlignment="Left" Margin="612,45,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="FeedbackTB" HorizontalAlignment="Left" Height="54" Margin="546,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="235"/>
+
+    </Grid>
+</Window>
