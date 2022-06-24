@@ -1,5 +1,7 @@
-This program is for calculating word per minute
+This program is for calculating WPM speed
 
 ver1.0 released in 20220624
 
-made by Jin
+source: https://github.com/zidanemook/wpmcalculator
+
+made by Jin, No copyright.
