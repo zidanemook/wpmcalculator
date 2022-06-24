@@ -59,6 +59,8 @@ namespace speedchecker
 
         private void CalculateButton_Click(object sender, RoutedEventArgs e)
         {
+            FeedbackTB.Clear();
+
             var selecteditem = ArticleList.SelectedItem as Article;
             if (selecteditem == null)
             {
